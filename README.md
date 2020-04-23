@@ -4,4 +4,4 @@ Trained and tested on two dataset, "small_vocab_en" and "small_vocab_fr" are Eng
 
 "small_vocab_en_UN" and "small_vocab_fr_UN", with the bad name I forget to change (not "small"), are the meeting record of United Nations, while the original files are huge, i cropped them to around 800k sentences and 40k ish unique words. there are also lots of translation error in them.
 
-After discarded most words and leave only those words appears freqently (only few thoudsand of them)to train, this model is still too small to acheive a good result. This model proved the correctness of its function with easy dataset, and also proved that if a NLP model is needed to be used in a real world problem, the model have to be a huge one.
+After discarded most words and leave only those words appears freqently (only few thoudsand of them)to train, this model is still too small to acheive a good result. This model proved the correctness of its function with easy datasets, and also proved that if a NLP model is needed to be used in a real world problem, the model have to be a huge one.
