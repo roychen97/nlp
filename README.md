@@ -1,6 +1,6 @@
 nlp seq2seq with attention. Loung is better than Bahdanau for choosing attention unit. 
 
-Trained and tested on two dataset, "small_vocab_en" and "small_vocab_fr" are English and French datasets with around 400k sentences but only few hundred unique words. This model can achieve around 98% accuracy. 
+Trained and tested on two dataset, "small_vocab_en" and "small_vocab_fr" are English and French datasets with around 400k sentences but only few hundreds of unique words. This model can achieve around 98% accuracy. 
 
 "small_vocab_en_UN" and "small_vocab_fr_UN", with the bad naming I forget to change, are the meeting record of United Nations, while the original files are huge, i cropped them to around 800k sentences and 40k ish unique words. and there are still lots of translation error in them.
 
